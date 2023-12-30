@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.mainContainer {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainImg {
+    width: 500px;
+    height: 500px;
+}
+
+.leftDiv {
+    width: 50%;
+}
+
+#imgList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.smallerImg {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+}
+
+.rightDiv {
+    width: 50%;
+}
+
+#colorOptions, #sizeOptions {
+    margin-top: 20px;
+}
+
+#colorOptions ul, #sizeOptions ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Added: Display options in a flex container */
+}
+
+#colorOptions h3, #sizeOptions h3 {
+    margin: 0;
+}
+
+.colorBox {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px; /* Optional: Add some space between color boxes */
+}
+
+.colorBoxInner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Optional: Set text color to white for better visibility */
+}
+
+.sizeOptionsContainer {
+    margin-top: 20px;
+}
+
+.sizeOptionsContainer ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Display size options in a flex container */
+}
+
+.sizeOptionsContainer h3 {
+    margin: 0;
+}
